@@ -12,8 +12,8 @@ On top of that, you must enable the firewall for each VM/CT you intend to block 
 
 You can Download/Install the script and run it via cron like so (as root): 
 ```bash
-sudo apt-get install python3
-sudo apt-get install wget
+apt-get install python3
+apt-get install wget
 mkdir /root/ProxBlocks
 cd /root/ProxBlocks
 wget https://raw.githubusercontent.com/modernham/ProxBlocks/main/proxblocks.py
